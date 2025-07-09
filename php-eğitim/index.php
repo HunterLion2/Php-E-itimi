@@ -6,4 +6,12 @@
 echo "Devam";
 
 
+?>
 
+<?php 
+
+
+include 'sabitler.php';
+echo "API Anahtarım".API_KEY; // Burada girdiğim iclude ile çektiğim değer sayesinde içerisine ulaşırım ve sonrasında "nokta" yazarak bu değere erişebilirim.
+echo $isim;
+?>
