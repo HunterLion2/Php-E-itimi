@@ -51,6 +51,19 @@ echo $stok;
 $isim = $_GET['kullaniciadi'] ?? 'Misafir'; // Burada ?? değeri eğer bir kullanıcı adı yoksa , yani bir null değer dönme varsa ?? den sonra gelen değeri getirir yani (Misafir) , ?? bu işe yarar.
 echo "Merhaba: " . $isim; // Php de nokta birleştirme operatörüdür.
 
-/* Ter */
+/* Ternary (Üçlü) Operatör */
+
+// if else yazmadan if else yazmak için kullanılır bunlar (?,:) ikilisidir.
+
+$a = 10;
+echo $a > 5 ? "Büyük" : "Küçük";
+
+/* Nullsafe Operatörü (?->) (PHP 8.0+) */
+
+// Null değerler üzerinde güvenli bir şekilde metot veya özelliğe erişmek için kullanılır.
+
+$kullaniciadi = null;
+echo $kullaniciadi ?-> getAdi();
+
 
 ?>
