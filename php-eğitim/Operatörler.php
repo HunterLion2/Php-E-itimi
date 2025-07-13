@@ -44,7 +44,7 @@ echo $stok;
 
 <?php
 
-/* Nulll Koalesan Operatörü (??) */
+/* Null Koalesan Operatörü (??) */
 
 // Null Kontrolü
 
