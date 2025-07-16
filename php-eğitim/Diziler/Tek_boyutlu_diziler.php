@@ -4,7 +4,6 @@
 
 // Tek boyutlu diziler, tek bir düzeyde veri içerir. Bu dizilerde veriler indeksler yardımıyla erişilebilir.
 
-// Sayısal İndeksli Bir Dizi
 
 $meyveler = ["Elma","Armut","Muz"];
 
