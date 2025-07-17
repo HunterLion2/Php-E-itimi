@@ -14,6 +14,11 @@ class Araba2 {
         $this->model = $model;
     }
 
+    public function __destruct() // Bu değer de herşey çalıştıkran sonra sınıfın içindeki seçtiğimiz değerleri siler.
+    {
+        echo "Araba nesnesi silindi: " . $this->marka . ' ' . $this->model;
+    }
+
     public function bilgileriGoster() {
         return $this->marka . ' ' . $this->model;
     }
