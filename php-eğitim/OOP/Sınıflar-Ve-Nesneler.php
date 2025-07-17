@@ -25,7 +25,7 @@ class Araba1 {
 }
 
 
-class Araba2 {
+class Araba3 {
     public $marka;
     public $model;
 
@@ -34,7 +34,7 @@ class Araba2 {
     }
 }
 
-$bmw = new Araba2();
+$bmw = new Araba3();
 $bmw->marka = 'BMW';
 $bmw->model = 'X6';
 
