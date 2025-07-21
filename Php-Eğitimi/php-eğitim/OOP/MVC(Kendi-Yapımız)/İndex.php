@@ -8,7 +8,7 @@ error_reporting(0);
 spl_autoload_register(function ($class_name) {
     $file = __DIR__ . '/classes/' . $class_name . '.php';
 
-    if(file_exists($file)) {
+    if(file_exists($file)) { 
         require $file;
     }
 
