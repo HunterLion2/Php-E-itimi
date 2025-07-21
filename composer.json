@@ -1,0 +1,16 @@
+{
+    "name": "php.net/composer-example",
+    "description": "PHP ile Composer Sınıf Yükleme Örneği",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "PhpNet\\ComposerExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Çınar Özgürgil"
+        }
+    ],
+    "require": {}
+}
